@@ -20,7 +20,7 @@ The main components are:
 
 - `run.py` — command-line interface, input parsing, model-call budgeting, and orchestration.
 - `model_client.py` — model API client and structured-output schema.
-- `prompt_v2.py` — instructions and examples for extracting typed constraints.
+- `prompt.py` — instructions and examples for extracting typed constraints.
 - `solver.py` — extraction validation, constraint evaluation, assignment search, and result classification.
 
 ### Design decisions
